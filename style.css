@@ -23,12 +23,12 @@
 .text-section {
     justify-content: center;
     margin: auto;
-    max-width: 90%;
+    max-width: 50%;
     min-width: 30%;
     text-align: left;
     margin-top: 200px;
     line-height: 35px;
-    padding-left: 100px;
+    padding: auto;
 }
 
 .title {
