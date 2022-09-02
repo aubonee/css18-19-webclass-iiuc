@@ -18,6 +18,7 @@
     height: 80vh;
     margin: auto;
     box-sizing: border-box;
+    transition: 0.5s;
 }
 
 .text-section {
@@ -28,6 +29,10 @@
     margin-top: 200px;
     line-height: 35px;
     padding: auto;
+}
+
+.trans-layer:hover {
+    border: 5px solid #fff;
 }
 
 .title {
@@ -54,16 +59,33 @@
     /* padding: 10px; */
 }
 
-.social-icon a .fa-facebook {
-    padding: 0 10px 0 10px;
+
+/* .social-icon a .fa-facebook {
+    padding: 5px 10px 5px 10px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
 
 .fa-instagram {
-    border-left: 3px solid #fff;
-    padding: 0 10px 0 10px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    padding: 5px 10px 5px 10px;
 }
 
 .fa-whatsapp {
-    border-left: 3px solid #fff;
-    padding: 0 10px 0 10px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    padding: 5px 10px 5px 10px;
+} */
+
+.social-icon a i {
+    padding: 5px 10px 5px 10px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transition: 0.5s;
+}
+
+.social-icon a i:hover {
+    font-size: 33px;
+    background-image: linear-gradient(to right, rgb(128, 128, 128, 0.8), rgb(0, 0, 0));
 }
